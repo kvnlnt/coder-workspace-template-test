@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://master.cdr.dev/api/private/template/schemas/wac.schema.json
+version: 0.2
+workspace:
+  type: "kubernetes"
+  specs:
+    kubernetes:
+      image:
+        value: alpine
+      container-based-vm:
+        value: false
+      cpu:
+        value: 1
+      memory:
+        value: 1
+      disk:
+        value: 1
